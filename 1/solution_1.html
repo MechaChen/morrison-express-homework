@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            outline: 1px solid #f00;
+        }
+
+        .container {
+            width: 1000px;
+            height: 800px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .header,
+        .footer {
+            height: 30px;
+        }
+
+        .content {
+            height: calc(100% - 60px);
+        }
+
+        .content__left {
+            display: inline-block;
+            width: 60px;
+            height: 100%;
+            margin-right: -4px;
+        }
+
+        .content__right {
+            display: inline-block;
+            width: calc(100% - 60px);
+            height: 100%;
+            overflow-y: auto;
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #666;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="content">
+            <div class="content__left"></div>
+            <div class="content__right">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, commodi perspiciatis perferendis sed deleniti impedit animi ad nemo expedita at ullam sequi iure incidunt. Natus, ipsum cupiditate. Culpa, corporis! Sunt.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, commodi perspiciatis perferendis sed deleniti impedit animi ad nemo expedita at ullam sequi iure incidunt. Natus, ipsum cupiditate. Culpa, corporis! Sunt.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, commodi perspiciatis perferendis sed deleniti impedit animi ad nemo expedita at ullam sequi iure incidunt. Natus, ipsum cupiditate. Culpa, corporis! Sunt.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, commodi perspiciatis perferendis sed deleniti impedit animi ad nemo expedita at ullam sequi iure incidunt. Natus, ipsum cupiditate. Culpa, corporis! Sunt.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, commodi perspiciatis perferendis sed deleniti impedit animi ad nemo expedita at ullam sequi iure incidunt. Natus, ipsum cupiditate. Culpa, corporis! Sunt.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, commodi perspiciatis perferendis sed deleniti impedit animi ad nemo expedita at ullam sequi iure incidunt. Natus, ipsum cupiditate. Culpa, corporis! Sunt.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, commodi perspiciatis perferendis sed deleniti impedit animi ad nemo expedita at ullam sequi iure incidunt. Natus, ipsum cupiditate. Culpa, corporis! Sunt.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, commodi perspiciatis perferendis sed deleniti impedit animi ad nemo expedita at ullam sequi iure incidunt. Natus, ipsum cupiditate. Culpa, corporis! Sunt.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, commodi perspiciatis perferendis sed deleniti impedit animi ad nemo expedita at ullam sequi iure incidunt. Natus, ipsum cupiditate. Culpa, corporis! Sunt.
+                
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
